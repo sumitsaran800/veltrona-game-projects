@@ -1,0 +1,1 @@
+import{_ as r,r as c,o as t,c as i}from"./index-DA4V3bi7.js";window.getBuildInfo=function(){return{buildTime:"12/28/2024, 9:18:06 AM",branch:"null"}};const s={};function a(n,e){const o=c("router-view");return t(),i(o)}const u=r(s,[["render",a]]);export{u as default};

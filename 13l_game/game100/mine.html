@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mines Pro - Casino</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --bg: #0f1923; 
+            --panel: #1b2632; 
+            --accent: #00ff88; 
+            --danger: #ff4d4d; 
+            --tile: #2f3d4c; 
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Rajdhani', sans-serif; user-select: none; -webkit-tap-highlight-color: transparent; }
+        
+        body { 
+            background: var(--bg); 
+            color: white; 
+            min-height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+            overflow-y: auto; 
+        }
+
+        /* HEADER */
+        .header { 
+            display: flex; align-items: center; padding: 12px 15px; 
+            background: var(--panel); border-bottom: 2px solid #333; 
+            position: sticky; top: 0; z-index: 100; width: 100%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        .back-btn { background: #333; border: none; color: white; padding: 8px 12px; border-radius: 6px; font-weight: bold; font-size: 18px; cursor: pointer; }
+        .logo { margin-left: 15px; font-size: 24px; color: var(--accent); font-weight: 900; letter-spacing: 1px; font-style: italic; }
+        .balance-box { margin-left: auto; background: #000; padding: 6px 15px; border-radius: 20px; border: 1px solid var(--accent); color: var(--accent); font-weight: bold; font-size: 16px; box-shadow: 0 0 10px rgba(0,255,136,0.2); }
+
+        /* CONTAINER */
+        .main-container { 
+            display: flex; 
+            flex-direction: row; 
+            padding: 15px; 
+            gap: 15px; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            width: 100%;
+            align-items: flex-start;
+        }
+
+        /* CONTROLS (Left) */
+        .controls { 
+            flex: 1; 
+            background: var(--panel); 
+            padding: 15px; 
+            border-radius: 12px; 
+            border: 1px solid #333; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+            min-width: 300px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .label { color: #888; font-size: 14px; margin-bottom: 5px; font-weight: bold; display: block; text-transform: uppercase; }
+        .input-box { display: flex; background: #000; border: 1px solid #444; border-radius: 8px; overflow: hidden; height: 50px; transition: 0.3s; }
+        .input-box input { flex: 1; background: none; border: none; color: white; text-align: center; font-size: 22px; font-weight: bold; width: 100%; outline: none; }
+        .ctrl-btn { width: 50px; background: #222; border: none; color: white; font-size: 24px; border-left: 1px solid #444; cursor: pointer; transition: 0.2s; }
+        .ctrl-btn:active { background: #444; }
+
+        .chip-row { display: flex; gap: 8px; }
+        .chip { flex: 1; background: #2a2a2a; border: 1px solid #444; color: #ccc; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; }
+        .chip:active { background: var(--accent); color: black; transform: scale(0.95); }
+
+        .mines-select { width: 100%; padding: 12px; background: #000; color: white; border: 1px solid #444; border-radius: 8px; font-size: 16px; height: 50px; outline: none; cursor: pointer; }
+
+        .btn-action { width: 100%; padding: 18px; border-radius: 8px; font-size: 22px; font-weight: 900; border: none; cursor: pointer; text-transform: uppercase; margin-top: 10px; transition: 0.2s; }
+        .btn-bet { background: var(--accent); color: #000; box-shadow: 0 4px 0 #00b359; }
+        .btn-bet:active { transform: translateY(3px); box-shadow: 0 1px 0 #00b359; }
+        .btn-bet:disabled { background: #444; color: #888; box-shadow: none; cursor: not-allowed; }
+        
+        .btn-cashout { background: #ffbd00; color: #000; display: none; box-shadow: 0 4px 0 #cc9a00; animation: pulse 1s infinite; }
+        .btn-cashout:active { transform: translateY(3px); box-shadow: 0 1px 0 #cc9a00; animation: none; }
+        
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.02); } 100% { transform: scale(1); } }
+
+        /* GAME BOARD (Right) */
+        .game-board { 
+            flex: 1.5; 
+            background: #131a23; 
+            padding: 20px; 
+            border-radius: 12px; 
+            border: 1px solid #333; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center;
+            position: relative;
+            min-height: 450px;
+            box-shadow: inset 0 0 50px rgba(0,0,0,0.5);
+        }
+
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(5, 1fr); 
+            gap: 12px; 
+            width: 100%; 
+            max-width: 450px; 
+            aspect-ratio: 1; 
+        }
+
+        .tile { 
+            background: var(--tile); 
+            border-radius: 8px; 
+            cursor: pointer; 
+            position: relative; 
+            box-shadow: 0 6px 0 #1b242e; 
+            transition: all 0.1s;
+            display: flex; align-items: center; justify-content: center; 
+            font-size: 32px;
+        }
+        .tile:active { transform: translateY(3px); box-shadow: 0 2px 0 #1b242e; }
+        
+        /* STATES */
+        .tile.revealed { background: #0b1016; box-shadow: inset 0 0 5px #000; transform: translateY(6px); cursor: default; border: 1px solid #333; }
+        .tile.gem { background: rgba(0, 255, 136, 0.15); border: 2px solid var(--accent); box-shadow: 0 0 15px rgba(0,255,136,0.3); transform: translateY(6px); }
+        .tile.bomb { background: rgba(255, 77, 77, 0.2); border: 2px solid var(--danger); box-shadow: 0 0 15px rgba(255,77,77,0.3); transform: translateY(6px); }
+        .tile.faded { opacity: 0.4; pointer-events: none; }
+
+        .icon-anim { animation: pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        @keyframes pop { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+
+        /* MODAL */
+        .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 50; border-radius: 12px; display: none; flex-direction: column; align-items: center; justify-content: center; backdrop-filter: blur(8px); }
+        .win-title { color: white; font-size: 36px; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+        .win-amt { font-size: 50px; color: var(--accent); font-weight: 900; text-shadow: 0 0 30px var(--accent); margin-bottom: 20px; }
+
+        @media (max-width: 900px) {
+            .main-container { flex-direction: column-reverse; padding: 10px; gap: 15px; }
+            .game-board { width: 100%; min-height: auto; padding: 15px; }
+            .controls { width: 100%; min-width: auto; }
+            .grid { gap: 8px; }
+            .tile { border-radius: 6px; box-shadow: 0 4px 0 #1b242e; font-size: 24px; }
+            .tile.revealed, .tile.gem, .tile.bomb { transform: translateY(4px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <button class="back-btn" onclick="window.location.href='/dashboard.php'">â¬…</button>
+        <div class="logo">MINES <span style="color:#fff; font-size:12px; font-weight:normal;">PRO</span></div>
+        <div class="balance-box">â‚¹<span id="bal">Loading...</span></div>
+    </div>
+
+    <div class="main-container">
+        
+        <div class="controls">
+            <div>
+                <label class="label">Bet Amount</label>
+                <div class="input-box">
+                    <input type="number" id="betAmt" value="10">
+                    <button class="ctrl-btn" onclick="adjBet(10)">+</button>
+                    <button class="ctrl-btn" onclick="adjBet(-10)">-</button>
+                </div>
+                <div class="chip-row" style="margin-top: 10px;">
+                    <button class="chip" onclick="setB(50)">50</button>
+                    <button class="chip" onclick="setB(100)">100</button>
+                    <button class="chip" onclick="setB(500)">500</button>
+                    <button class="chip" onclick="setB(1000)">1K</button>
+                </div>
+            </div>
+
+            <div>
+                <label class="label">Mines</label>
+                <select id="minesCnt" class="mines-select">
+                    <option value="1">1 Mine (Safe)</option>
+                    <option value="3" selected>3 Mines</option>
+                    <option value="5">5 Mines</option>
+                    <option value="10">10 Mines (High Risk)</option>
+                    <option value="20">20 Mines (Insane)</option>
+                    <option value="24">24 Mines (Legendary)</option>
+                </select>
+            </div>
+
+            <button id="mainBtn" class="btn-action btn-bet" onclick="startGame()">BET</button>
+            <button id="cashBtn" class="btn-action btn-cashout" onclick="cashout()">CASHOUT</button>
+        </div>
+
+        <div class="game-board">
+            <div class="grid" id="grid"></div>
+
+            <div class="overlay" id="winScreen">
+                <div class="win-title">YOU WON</div>
+                <div class="win-amt" id="winVal">â‚¹0.00</div>
+                <button class="btn-action btn-bet" style="width:200px; padding:10px;" onclick="closeWin()">CONTINUE</button>
+            </div>
+        </div>
+
+    </div>
+
+    <audio id="sGem" src="https://assets.mixkit.co/active_storage/sfx/2578/2578-preview.mp3"></audio>
+    <audio id="sBomb" src="https://assets.mixkit.co/active_storage/sfx/2003/2003-preview.mp3"></audio>
+    <audio id="sWin" src="https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3"></audio>
+    <audio id="sClick" src="https://assets.mixkit.co/active_storage/sfx/2573/2573-preview.mp3"></audio>
+
+<script>
+    // --- SETUP ---
+    const apiPath = '/deepanshu/api/webapi/mine.php'; 
+    let isPlaying = false;
+    let currentProfit = 0;
+    
+    // --- INITIALIZE ---
+    function init() {
+        drawGrid(); 
+        document.getElementById('winScreen').style.display = 'none';
+        
+        // Token check
+        const token = localStorage.getItem('token');
+        if(!token) {
+            alert("Please login first!");
+            return;
+        }
+        sync(); // Fetch balance
+    }
+
+    function drawGrid() {
+        const grid = document.getElementById('grid');
+        grid.innerHTML = '';
+        for(let i=0; i<25; i++) {
+            let t = document.createElement('div');
+            t.className = 'tile';
+            t.dataset.idx = i;
+            
+            // Interaction
+            t.addEventListener('click', () => tileClick(i));
+            t.addEventListener('touchstart', (e) => { e.preventDefault(); tileClick(i); }, {passive: false});
+            
+            grid.appendChild(t);
+        }
+    }
+
+    // --- API & GAME LOGIC ---
+    async function sync() {
+        const token = localStorage.getItem('token'); 
+        try {
+            let res = await fetch(apiPath, {
+                method:'POST', 
+                headers: {'Authorization': 'Bearer ' + token},
+                body: JSON.stringify({action: 'init'})
+            });
+            let data = await res.json();
+            if(data.code === 0) {
+                document.getElementById('bal').innerText = parseFloat(data.balance).toFixed(2);
+                
+                // If game active, restore state (Advanced feature, optional)
+                if(data.hasActive) {
+                    toggleControls(true);
+                    document.getElementById('mainBtn').innerText = "RESUME";
+                }
+            }
+        } catch(e) {}
+    }
+
+    async function startGame() {
+        if(isPlaying) return;
+        playSound('sClick');
+        
+        let amt = document.getElementById('betAmt').value;
+        let mines = document.getElementById('minesCnt').value;
+        const token = localStorage.getItem('token'); 
+
+        // Reset
+        drawGrid(); 
+        document.getElementById('winScreen').style.display = 'none';
+        document.getElementById('mainBtn').disabled = true;
+
+        try {
+            let res = await fetch(apiPath, {
+                method:'POST',
+                headers: {'Authorization': 'Bearer ' + token},
+                body: JSON.stringify({action: 'start', amount: amt, mines: mines})
+            });
+            let data = await res.json();
+            
+            if(data.code === 0) {
+                isPlaying = true;
+                currentProfit = parseFloat(amt);
+                document.getElementById('bal').innerText = parseFloat(data.balance).toFixed(2);
+                
+                toggleControls(true);
+                document.getElementById('mainBtn').disabled = false;
+            } else {
+                alert(data.msg || "Error");
+                document.getElementById('mainBtn').disabled = false;
+            }
+        } catch(e) {
+            document.getElementById('mainBtn').disabled = false;
+        }
+    }
+
+    async function tileClick(idx) {
+        if(!isPlaying) return;
+        let tile = document.querySelector(`.tile[data-idx="${idx}"]`);
+        if(tile.classList.contains('revealed')) return;
+
+        // Visual feedback
+        tile.style.transform = "scale(0.95)";
+        const token = localStorage.getItem('token'); 
+
+        try {
+            let res = await fetch(apiPath, {
+                method:'POST',
+                headers: {'Authorization': 'Bearer ' + token},
+                body: JSON.stringify({action: 'reveal', index: idx})
+            });
+            let data = await res.json();
+
+            tile.classList.add('revealed');
+            tile.style.transform = "translateY(6px)"; 
+
+            if(data.status === 'safe') {
+                // GEM FOUND
+                tile.classList.add('gem');
+                tile.innerHTML = '<div class="icon-anim">ðŸ’Ž</div>';
+                playSound('sGem');
+                
+                currentProfit = data.profit;
+                document.getElementById('cashBtn').innerHTML = `CASHOUT <br><span style="font-size:0.9em; color:#000;">â‚¹${currentProfit}</span>`;
+
+                // ðŸ”¥ AUTO CASHOUT CHECK (Critical for 24 Mines) ðŸ”¥
+                if(data.game_over === true) {
+                    setTimeout(() => {
+                        cashout(); // Auto claim if max safe tiles reached
+                    }, 500);
+                }
+
+            } else if (data.status === 'bomb') {
+                // BOMB HIT
+                tile.classList.add('bomb');
+                tile.innerHTML = '<div class="icon-anim">ðŸ’£</div>';
+                playSound('sBomb');
+                
+                // Reveal other mines
+                if(data.mines) {
+                    data.mines.forEach(m => {
+                        let t = document.querySelector(`.tile[data-idx="${m}"]`);
+                        if(t.dataset.idx != idx) {
+                            t.classList.add('revealed');
+                            t.innerHTML = 'ðŸ’£';
+                            t.style.opacity = '0.5'; // Faded look for other bombs
+                        }
+                    });
+                }
+                
+                // Disable remaining tiles
+                document.querySelectorAll('.tile').forEach(t => {
+                    if(!t.classList.contains('revealed')) t.classList.add('faded');
+                });
+                
+                isPlaying = false;
+                toggleControls(false);
+                document.getElementById('cashBtn').innerHTML = "CASHOUT";
+            }
+        } catch(e) {}
+    }
+
+    async function cashout() {
+        if(!isPlaying) return;
+        playSound('sClick');
+        
+        const token = localStorage.getItem('token'); 
+        try {
+            let res = await fetch(apiPath, {
+                method:'POST',
+                headers: {'Authorization': 'Bearer ' + token},
+                body: JSON.stringify({action: 'cashout'})
+            });
+            let data = await res.json();
+            
+            if(data.code === 0) {
+                isPlaying = false;
+                toggleControls(false);
+                
+                // Reveal hidden mines (visual only)
+                if(data.mines) {
+                    data.mines.forEach(m => {
+                        let t = document.querySelector(`.tile[data-idx="${m}"]`);
+                        if(!t.classList.contains('revealed')) {
+                            t.classList.add('revealed');
+                            t.innerHTML = 'ðŸ’£';
+                            t.style.opacity = '0.3';
+                        }
+                    });
+                }
+
+                // Show Win Screen
+                document.getElementById('winVal').innerText = "â‚¹" + data.winAmount;
+                document.getElementById('winScreen').style.display = 'flex';
+                playSound('sWin');
+                sync();
+            }
+        } catch(e) {}
+    }
+
+    // --- UI HELPERS ---
+    function toggleControls(active) {
+        document.getElementById('mainBtn').style.display = active ? 'none' : 'block';
+        document.getElementById('cashBtn').style.display = active ? 'block' : 'none';
+        
+        document.getElementById('betAmt').disabled = active;
+        document.getElementById('minesCnt').disabled = active;
+        document.querySelectorAll('.chip').forEach(c => c.disabled = active);
+    }
+
+    function closeWin() {
+        document.getElementById('winScreen').style.display = 'none';
+        document.getElementById('cashBtn').innerHTML = "CASHOUT";
+        drawGrid(); // Clean board for next game
+    }
+
+    function playSound(id) {
+        const audio = document.getElementById(id);
+        if(audio) { audio.currentTime = 0; audio.play().catch(e => {}); }
+    }
+
+    function adjBet(v) { 
+        if(isPlaying) return;
+        let el = document.getElementById('betAmt'); 
+        el.value = Math.max(10, parseInt(el.value) + v); 
+    }
+    
+    function setB(v) { 
+        if(isPlaying) return;
+        document.getElementById('betAmt').value = v; 
+    }
+
+    // Run
+    init();
+</script>
+</body>
+</html>

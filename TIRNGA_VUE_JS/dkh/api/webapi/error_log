@@ -1,0 +1,436 @@
+[19-Feb-2025 07:49:02 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/Captcha.php(1) : eval()'d code on line 1
+[19-Feb-2025 07:49:04 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/Captcha.php(1) : eval()'d code on line 1
+[19-Feb-2025 07:49:09 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/Captcha.php(1) : eval()'d code on line 1
+[19-Feb-2025 07:49:11 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/Captcha.php(1) : eval()'d code on line 1
+[23-Feb-2025 13:22:09 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[23-Feb-2025 13:22:09 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 24
+[23-Feb-2025 13:22:09 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 25
+[23-Feb-2025 13:22:09 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[23-Feb-2025 13:22:09 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[23-Feb-2025 13:22:13 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[23-Feb-2025 13:22:13 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 24
+[23-Feb-2025 13:22:13 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 25
+[23-Feb-2025 13:22:13 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[23-Feb-2025 13:22:13 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[25-Feb-2025 01:06:00 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[25-Feb-2025 01:06:00 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 24
+[25-Feb-2025 01:06:00 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 25
+[25-Feb-2025 01:06:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[25-Feb-2025 01:06:00 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[28-Feb-2025 12:52:22 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 12:52:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 12:52:22 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 12:52:50 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:52 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:53 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:53 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:53 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:54 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:54 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:52:55 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:59:33 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:59:35 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 12:59:47 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 13:11:19 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 13:20:18 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 13:22:17 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[28-Feb-2025 13:22:17 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 24
+[28-Feb-2025 13:22:17 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 25
+[28-Feb-2025 13:22:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[28-Feb-2025 13:22:17 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[28-Feb-2025 13:22:40 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 13:22:42 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 13:25:08 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 13:25:41 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 13:25:53 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 14:34:03 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 14:48:04 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 15:06:12 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 15:07:18 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 15:08:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:08:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:08:56 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:06 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:11 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:21 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:22 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:26 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:29 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:09:36 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:36 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 50
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 50
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 51
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 51
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 52
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 52
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 53
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 53
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 54
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 54
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 55
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 55
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 56
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 56
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 57
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 57
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 58
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 58
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 59
+[28-Feb-2025 15:09:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 59
+[28-Feb-2025 15:09:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:09:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:09:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:10:00 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:10:00 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 15:10:08 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:10:10 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:10:11 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 15:29:09 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 15:29:09 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 17:12:55 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 17:12:55 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 17:13:00 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 17:13:00 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 17:13:02 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 17:13:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 17:13:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 17:13:35 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 17:13:46 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 17:13:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 17:13:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 17:13:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 17:13:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 17:18:23 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 17:18:23 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 17:18:23 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 19:38:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 19:38:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 19:39:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 19:39:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 19:39:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 19:39:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 19:46:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 19:46:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 21:25:54 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 21:28:21 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[28-Feb-2025 21:28:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 21:28:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 21:28:36 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 21:28:36 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 21:28:36 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 21:28:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 21:28:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 50
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 50
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 51
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 51
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 52
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 52
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 53
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 53
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 54
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 54
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 55
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 55
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 56
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 56
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 57
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 57
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 58
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 58
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 59
+[28-Feb-2025 21:28:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 59
+[28-Feb-2025 21:28:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 21:28:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 21:33:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 21:33:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 21:41:26 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 21:41:26 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:51:42 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[28-Feb-2025 22:52:21 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:52:42 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:52:49 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:52:57 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:53:07 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:53:12 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:53:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:53:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:53:25 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:53:25 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:53:27 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 22:53:27 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 22:53:27 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 22:53:31 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:53:31 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:54:16 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:54:18 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 22:54:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 22:54:18 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[28-Feb-2025 22:58:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:58:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:58:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:58:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:58:21 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[28-Feb-2025 22:58:38 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:58:38 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:58:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:58:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[28-Feb-2025 22:58:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[28-Feb-2025 22:58:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 03:11:50 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[01-Mar-2025 03:11:50 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 24
+[01-Mar-2025 03:11:50 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/functions2.php on line 25
+[01-Mar-2025 03:11:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[01-Mar-2025 03:11:50 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[01-Mar-2025 06:34:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 06:34:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:32:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:32:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:32:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:32:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:32:59 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:32:59 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:33:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:33:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:33:06 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:33:06 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:33:09 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:33:09 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 10:33:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 10:33:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 12:28:40 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[01-Mar-2025 12:28:42 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[01-Mar-2025 12:29:17 Asia/Kolkata] PHP Notice:  Undefined index: gameCode in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 30
+[01-Mar-2025 12:29:17 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[01-Mar-2025 12:30:37 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[01-Mar-2025 12:30:45 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[01-Mar-2025 12:30:47 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[01-Mar-2025 12:31:00 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[01-Mar-2025 17:31:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 17:31:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 50
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 50
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 51
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 51
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 52
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 52
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 53
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 53
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 54
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 54
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 55
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 55
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 56
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 56
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 57
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 57
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 58
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 58
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 59
+[01-Mar-2025 17:31:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUserLevelDetail.php on line 59
+[01-Mar-2025 17:32:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[01-Mar-2025 17:32:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/tirangaa.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 13:53:46 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 13:53:46 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 13:53:46 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:01:22 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 14:21:39 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:39 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:48 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:48 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:57 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:21:57 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:22:44 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[02-Mar-2025 14:22:44 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[02-Mar-2025 14:22:44 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[02-Mar-2025 14:22:44 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 14:22:44 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 14:22:52 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 14:23:13 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[02-Mar-2025 14:25:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:25:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:25:33 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:25:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:25:33 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 14:25:37 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:25:37 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:25:40 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:25:40 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:25:48 Asia/Kolkata] PHP Notice:  Undefined index: gameCode in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 30
+[02-Mar-2025 14:25:48 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[02-Mar-2025 14:26:12 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:26:12 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:26:50 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:26:50 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:43:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:43:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:43:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 14:43:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 14:53:57 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[02-Mar-2025 14:53:57 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[02-Mar-2025 14:53:57 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[02-Mar-2025 14:53:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 14:53:57 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 14:54:06 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[02-Mar-2025 14:54:06 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[02-Mar-2025 14:54:06 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[02-Mar-2025 14:54:06 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 14:54:06 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 15:14:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 15:14:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 15:14:25 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 15:14:28 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 15:14:29 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 15:14:34 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 15:14:40 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 15:14:40 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 15:15:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 15:15:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 15:15:19 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[02-Mar-2025 15:15:22 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[02-Mar-2025 15:15:27 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[02-Mar-2025 18:50:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[02-Mar-2025 18:50:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[02-Mar-2025 18:50:30 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[02-Mar-2025 18:51:26 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 18:51:26 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 18:51:26 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[02-Mar-2025 18:51:31 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[02-Mar-2025 23:52:06 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[02-Mar-2025 23:52:06 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[02-Mar-2025 23:52:06 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[02-Mar-2025 23:52:06 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[02-Mar-2025 23:52:06 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 01:36:39 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[03-Mar-2025 01:36:39 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[03-Mar-2025 01:36:39 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[03-Mar-2025 01:36:39 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 01:36:39 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 01:37:41 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetSelfCustomerServiceLink.php on line 32
+[03-Mar-2025 13:19:05 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[03-Mar-2025 13:19:05 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[03-Mar-2025 13:19:05 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[03-Mar-2025 13:19:05 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 13:19:05 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 13:31:50 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[03-Mar-2025 13:31:50 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[03-Mar-2025 13:31:50 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[03-Mar-2025 13:31:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 13:31:50 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 15:55:43 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[03-Mar-2025 15:55:53 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[03-Mar-2025 15:55:56 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[03-Mar-2025 15:57:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 15:57:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 15:57:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 15:57:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 15:57:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 15:57:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 15:57:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 15:57:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 15:57:58 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 15:57:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 15:57:58 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 15:58:03 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 15:58:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 15:58:03 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 18:18:47 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[03-Mar-2025 18:18:47 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[03-Mar-2025 18:18:47 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[03-Mar-2025 18:18:47 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 18:18:47 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 18:18:53 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[03-Mar-2025 18:18:53 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[03-Mar-2025 18:18:53 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[03-Mar-2025 18:18:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 18:18:53 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[03-Mar-2025 20:43:42 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 20:43:42 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 20:43:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 20:43:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 20:43:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 20:43:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 20:43:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 20:43:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 20:43:49 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[03-Mar-2025 20:43:49 Asia/Kolkata] PHP Notice:  Undefined index: payid in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 28
+[03-Mar-2025 21:33:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 21:33:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 21:33:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 21:33:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 21:33:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 21:33:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 21:33:56 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 21:33:56 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 21:34:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[03-Mar-2025 21:34:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[03-Mar-2025 21:36:01 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:01 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:35 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:35 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:44 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:36:44 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:38:54 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:38:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:38:54 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 21:59:55 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[03-Mar-2025 22:00:43 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 22:00:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 22:00:43 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 23:15:13 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 23:15:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 23:15:13 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 23:16:04 Asia/Kolkata] PHP Notice:  Undefined variable: withdrawRow in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 23:16:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[03-Mar-2025 23:16:04 Asia/Kolkata] PHP Notice:  Undefined variable: i in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetWithdrawLog.php on line 102
+[04-Mar-2025 00:50:11 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[04-Mar-2025 00:50:11 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[04-Mar-2025 00:50:11 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[04-Mar-2025 00:50:11 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[04-Mar-2025 00:50:11 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[04-Mar-2025 09:11:19 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[04-Mar-2025 09:11:19 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[04-Mar-2025 09:11:19 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[04-Mar-2025 09:11:19 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[04-Mar-2025 09:11:19 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[04-Mar-2025 09:13:02 Asia/Kolkata] PHP Notice:  Undefined index: gameCode in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 30
+[04-Mar-2025 09:13:02 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[04-Mar-2025 09:13:05 Asia/Kolkata] PHP Notice:  Undefined index: gameCode in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 30
+[04-Mar-2025 09:13:05 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[04-Mar-2025 09:13:07 Asia/Kolkata] PHP Notice:  Undefined index: gameCode in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 30
+[04-Mar-2025 09:13:07 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[04-Mar-2025 09:13:14 Asia/Kolkata] PHP Notice:  Undefined index: phonetype in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetGameUrl.php on line 31
+[04-Mar-2025 09:13:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[04-Mar-2025 09:13:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[04-Mar-2025 09:13:57 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[04-Mar-2025 09:14:42 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[04-Mar-2025 09:15:04 Asia/Kolkata] PHP Notice:  Undefined index: payTypeId in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetRechargeTypes.php on line 27
+[04-Mar-2025 09:15:12 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 53
+[04-Mar-2025 09:15:12 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetVipUsers.php on line 55
+[05-Mar-2025 15:26:26 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 36
+[05-Mar-2025 15:26:26 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 24
+[05-Mar-2025 15:26:26 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/functions2.php on line 25
+[05-Mar-2025 15:26:26 Asia/Kolkata] PHP Warning:  Illegal string offset 'id' in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39
+[05-Mar-2025 15:26:26 Asia/Kolkata] PHP Notice:  Uninitialized string offset: 0 in /home/fmyaeusu/test.aladdinngame.xyz/dkh/api/webapi/GetAllowBetSetting.php on line 39

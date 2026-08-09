@@ -1,0 +1,20 @@
+window.CONFIG = Object.freeze({
+    "VITE_API_URL": "https://tirnga.veltronaerp.in/dkh",
+    "VITE_BASE_LANGUAGE": "en",
+    "VITE_BASE_DOLLARSIGN": "₹",
+    "VITE_BASE_AREACODE": "+91",
+    "VITE_BASE_DICTIONARY": "{\"+91\":\"10\"}",
+    "VITE_BASE_LANGUAGES": "en|hd",
+    "VITE_BASE_PROJECTNAME": "TIRANGA GAME",
+    "VITE_BASE_CURRENCY": "INR",
+    "VITE_BASE_UPPERORLOWER": "0",
+    "VITE_PNGSTART": "lottery77",
+    "VITE_POINT": "TIRANGA",
+    "VITE_HOME": "whiteGoldHome",
+    "VITE_MAINCOLOR": "redStyle",
+    "VITE_BAN_FBSELF": "1",
+    "BASE_URL": "/",
+    "MODE": "production",
+    "DEV": false,
+    "PROD": true
+});

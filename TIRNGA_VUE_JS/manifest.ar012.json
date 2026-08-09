@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "BHARAT CLUB",
+	"version": "1.2",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "BHARAT CLUB Game",
+	"icons": [
+		{
+			"src": "/ar012@192.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/ar012@512.png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/#/"
+}

@@ -1,0 +1,5 @@
+{
+  "version": "v30-wallet-session-security-fix",
+  "time": 1779546159,
+  "buildNote": "UPI/BankCard exact wallet filter, bank code list fix, one-device session token, refresh token rotation, withdraw password, duplicate wallet block, admin audit logs"
+}

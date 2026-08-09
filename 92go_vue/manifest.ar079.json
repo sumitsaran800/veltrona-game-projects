@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "demoready",
+  "version": "1.2",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "demoready",
+  "icons": [
+    {
+      "src": "/ar079@192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/ar079@512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/#/"
+}

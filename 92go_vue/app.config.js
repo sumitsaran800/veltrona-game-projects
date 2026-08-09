@@ -1,0 +1,20 @@
+window.CONFIG = Object.freeze({
+    "VITE_API_URL": "https://92go.veltronaerp.in/abcoders",
+    "VITE_BASE_LANGUAGE": "en",
+    "VITE_BASE_DOLLARSIGN": "₹",
+    "VITE_BASE_AREACODE": "+91",
+    "VITE_BASE_DICTIONARY": "{\"+91\":\"10\"}",
+    "VITE_BASE_LANGUAGES": "en|hd",
+    "VITE_BASE_PROJECTLOGO": "",
+    "VITE_BASE_HEADLOGO": "",
+    "VITE_BASE_PROJECTNAME": "92GO VUE",
+    "VITE_BASE_CURRENCY": "INR",
+    "VITE_BASE_UPPERORLOWER": "0",
+    "VITE_POINT": "92GO",
+    "VITE_HOME": "redHome",
+    "VITE_MAINCOLOR": "redStyle",
+    "BASE_URL": "/",
+    "MODE": "production",
+    "DEV": false,
+    "PROD": true
+});

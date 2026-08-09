@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Customer Service</title>
+    <script>
+        function getHashParams() {
+            let fragment = window.location.hash;
+            if (!fragment.includes('?')) fragment = location.search.split('?',2)[1];
+            function parseHashParams(fragment) {
+                if (fragment) {
+                    const queryStart = fragment.indexOf('?');
+                    if (queryStart !== -1) {
+                        // 如果存在问号，则截取问号后的部分
+                        fragment = fragment.substring(queryStart + 1);
+                    }
+                    const queryParams = fragment.split('&');
+                    const params = {};
+                    queryParams.forEach(function (param) {
+                        let keyValue = param.split('=');
+                        params[keyValue[0]] = decodeURIComponent(keyValue[1]);
+                    });
+
+                    return params;
+                } else {
+                    return {};
+                }
+            }
+
+            return parseHashParams(fragment);
+
+            /*获取跳转路径参数信息*/
+            /*const getQueryData =  () => {
+                const url= window.location.href;
+                const paramArr = url.slice(url.indexOf("?")+1).split("&");
+                const params={};
+                paramArr.map((param)=>{
+                    const [key,val] = param.split("=");
+                    params[key] = decodeURIComponent(val)
+                })
+                return params
+            }
+            return getQueryData()*/
+        }
+        (function (){
+            const query = getHashParams()
+            if (query.datablock) localStorage.setItem('w_auth',JSON.stringify(query));
+            if (query.language === 'bra') {
+                localStorage.setItem('language','pt');            
+            }
+        })()
+    </script>
+  <script type="module" crossorigin src="/assets/index-DA4V3bi7.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B7MAoOQq.css">
+</head>
+<body>
+<div id="app"></div>
+</body>
+</html>

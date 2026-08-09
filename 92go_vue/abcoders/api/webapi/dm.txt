@@ -1,0 +1,30 @@
+# DM.TXT Example File
+
+This is a sample text file that can be converted to PHP.
+
+## User Data
+username: demo_user
+email: user@demo.com
+access_level: standard
+
+## System Information
+version: 1.0.5
+last_updated: 2023-11-15
+status: active
+
+## Instructions
+1. This file contains configuration data
+2. Convert to PHP for web use
+3. Keep sensitive data secure
+
+## Sample Data Array
+products:
+- id: 101
+  name: Sample Product 1
+  price: 29.99
+- id: 102
+  name: Sample Product 2
+  price: 49.99
+
+## Footer
+Thank you for using demo.com!
