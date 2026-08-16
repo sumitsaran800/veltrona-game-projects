@@ -33,10 +33,10 @@
 				$data['isSplitLocalEWallet'] = true;
 				$data['jackportMaxReswadAmount'] = 500;
 				$data['projectName'] = '91 𝐂𝐋𝐔𝐁';
-				$data['projectLogo'] = 'http://127.0.0.1:8001/logo.png';
+				$data['projectLogo'] = 'https://89club.veltronaerp.in/logo.png';
 				$data['languages'] = 'en|hd';
-				$data['webIco'] = 'http://127.0.0.1:8001/logo.png';
-				$data['headLogo'] = 'http://127.0.0.1:8001/logo.png';
+				$data['webIco'] = 'https://89club.veltronaerp.in/logo.png';
+				$data['headLogo'] = 'https://89club.veltronaerp.in/logo.png';
 				$data['dollarSign'] = '₹';
 				$data['upperOrLower'] = '0';
 				$data['defaultCurrentLanguage'] = 'en';
@@ -60,7 +60,7 @@
 				$data['isOpenTurntable'] = true;
 				$data['isPartnerReward'] = true;
 				$data['isSelfCustomerService'] = true;
-				$data['webSiteUrl'] = 'http://127.0.0.1:8001';
+				$data['webSiteUrl'] = 'https://89club.veltronaerp.in';
 				$data['isOpenFacebookEvent'] = true;
 				$data['isOpenRegisterPhoneFirstZeroSwitch'] = false;
 				$data['eventRegionConfigList'] = null;

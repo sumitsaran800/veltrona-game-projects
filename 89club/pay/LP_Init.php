@@ -52,7 +52,7 @@ if ($demoResult->num_rows > 0) {
     $conn->query($updateQuery);
 
     // Redirect to recharge history
-    header('Location: http://127.0.0.1:8001/#/main');
+    header('Location: https://89club.veltronaerp.in/#/main');
     exit;
 }
 
@@ -101,7 +101,7 @@ $res = [
 		
 		$urlarr = explode (",", $urlInfo);
 		$theirurl = $urlarr[0];
-		$myurl = 'http://127.0.0.1:8001/#/wallet/RechargeHistory';
+		$myurl = 'https://89club.veltronaerp.in/#/wallet/RechargeHistory';
 		
 		if($myurl){
 ?>

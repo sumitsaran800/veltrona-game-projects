@@ -129,7 +129,7 @@ function isMaintenanceMode($conn) {
 $maintenanceMessage = isMaintenanceMode($conn);
 
 if ($maintenanceMessage) {
-    header('Location: http://127.0.0.1:8001/maintenance.html');
+    header('Location: https://89club.veltronaerp.in/maintenance.html');
     exit();
 }
 

@@ -117,9 +117,9 @@ if (!defined("SECURITY_PASS")) { die(); }
 	// Database connection info 
 	$dbDetails = array( 
 		'host' => 'localhost', 
-		'user' => 'clubgo_bot', 
-		'pass' => 'clubgo_bot', 
-		'db'   => 'clubgo_bot' 
+		'user' => 'onorc_89club', 
+		'pass' => 'onorc_89club', 
+		'db'   => 'onorc_89club' 
 	); 
 	 
 	// DB table to use 

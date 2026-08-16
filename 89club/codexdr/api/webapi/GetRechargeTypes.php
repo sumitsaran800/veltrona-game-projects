@@ -42,7 +42,7 @@
 					$sesresult=$conn->query($sesquery);
 					$sesnum = mysqli_num_rows($sesresult);
 					if($sesnum == 1){
-						$sites = 'http://127.0.0.1:8001';
+						$sites = 'https://89club.veltronaerp.in';
 						
 						if ($payid == 2) {
                             $data["rechargetypelist"]["0"]["payTypeID"] = (int)"1023";

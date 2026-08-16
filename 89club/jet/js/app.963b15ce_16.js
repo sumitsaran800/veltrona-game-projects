@@ -958,7 +958,7 @@
             },
             beforeCreate: function () {
               if (localStorage.getItem("userInfo") === null) {
-				window.location.href = "http://127.0.0.1:8001/#/login";
+				window.location.href = "https://89club.veltronaerp.in/#/login";
 			  }
             },
             created: function () {
@@ -992,7 +992,7 @@
                 (this.username = (JSON.parse(localStorage.getItem('userInfo')).mobile).substring(2)),
                   O()
                     .get(
-                      "http://127.0.0.1:8001/jet/trova/src/api/me.php?action=getuserinfo&user=" +
+                      "https://89club.veltronaerp.in/jet/trova/src/api/me.php?action=getuserinfo&user=" +
                         this.username
                     )
                     .then((e) => {

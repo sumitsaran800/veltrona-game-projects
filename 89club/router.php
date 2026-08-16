@@ -1,5 +1,5 @@
 <?php
-// Router for 89 CLUB on PHP built-in CLI server (php -S 127.0.0.1:8001 router.php)
+// Router for 89 CLUB on PHP built-in CLI server (php -S 89club.veltronaerp.in router.php)
 
 $uri = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 $filePath = __DIR__ . $uri;

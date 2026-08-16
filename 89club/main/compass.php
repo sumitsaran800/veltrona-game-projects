@@ -239,7 +239,7 @@
 			}
 		  ?>
 		 <li class="nav-item">
-                    <a href="http://127.0.0.1:8001" class="nav-link">
+                    <a href="https://89club.veltronaerp.in" class="nav-link">
                         <i class="nav-icon fa fa-sign-out" aria-hidden="true"></i>
                         <p>Go To Website</p>
                     </a>

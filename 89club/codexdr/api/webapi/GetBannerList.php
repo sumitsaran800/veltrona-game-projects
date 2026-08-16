@@ -2,51 +2,51 @@
     "data": [
         {
             "url": "/#/wallet/Recharge",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/1.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/1.png"
         },
         {
             "url": "",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/2.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/2.png"
         },
         {
             "url": "/#/promotion/TeamPartner",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/3.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/3.png"
         },
         {
             "url": "/#/activity/Turntable",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/4.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/4.png"
         },
         {
             "url": "",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/5.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/5.png"
         },
         {
             "url": "/#/main/SuperJackpot",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/6.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/6.png"
         },
         {
             "url": "/#/main/Laundry",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/7.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/7.png"
         },
         {
-            "url": "http://127.0.0.1:8001/support",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/8.png"
+            "url": "https://89club.veltronaerp.in/support",
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/8.png"
         },
         {
             "url": "https://t.me/channel_91clubofficial",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/8.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/8.png"
         },
         {
             "url": "/#/activity/ActivityDetail?id=28",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/9.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/9.png"
         },
         {
             "url": "",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/10.png"
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/10.png"
         },
         {
-            "url": "http://127.0.0.1:8001/",
-            "bannerUrl": "http://127.0.0.1:8001/Banners/1.png"
+            "url": "https://89club.veltronaerp.in/",
+            "bannerUrl": "https://89club.veltronaerp.in/Banners/1.png"
         }
     ],
     "code": 0,

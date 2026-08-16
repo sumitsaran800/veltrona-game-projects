@@ -121,9 +121,9 @@ error_reporting(E_ALL);
 
 // Database connection
 $servername = "localhost";
-$username = "clubgo_bot";
-$password = "clubgo_bot"; 
-$dbname = "clubgo_bot";
+$username = "onorc_89club";
+$password = "onorc_89club"; 
+$dbname = "onorc_89club";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

@@ -118,7 +118,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Database connection
-$conn = new mysqli("localhost", "clubgo_bot", "clubgo_bot", "clubgo_bot"); 
+$conn = new mysqli("localhost", "onorc_89club", "onorc_89club", "onorc_89club"); 
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -277,14 +277,14 @@ if ($conn->query($query)) {
             <h1>Issue Submitted Successfully!</h1>
             <p>Thank you for submitting your issue. Our team will review it shortly.</p>
             <div class="countdown">Redirecting in <span id="countdown">10</span> seconds...</div>
-            <a href="http://127.0.0.1:8001/" class="btn">Return Home Now</a>
+            <a href="https://89club.veltronaerp.in/" class="btn">Return Home Now</a>
         </div>
 
         <script>
             // Countdown timer
             let seconds = 10;
             const countdownElement = document.getElementById("countdown");
-            const homeUrl = "http://127.0.0.1:8001/";
+            const homeUrl = "https://89club.veltronaerp.in/";
             
             const countdownInterval = setInterval(() => {
                 seconds--;

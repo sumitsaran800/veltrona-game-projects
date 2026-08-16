@@ -115,9 +115,9 @@ else {
 
 if (!defined("SECURITY_PASS")) { die(); }
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'clubgo_bot');
-define('DB_PASSWORD', 'clubgo_bot');
-define('DB_NAME', 'clubgo_bot');
+define('DB_USERNAME', 'onorc_89club');
+define('DB_PASSWORD', 'onorc_89club');
+define('DB_NAME', 'onorc_89club');
 
 function getDBConnection() {
     $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

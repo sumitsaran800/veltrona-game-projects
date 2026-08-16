@@ -116,9 +116,9 @@ else {
 if (!defined("SECURITY_PASS")) { die(); }
 return [
     'db_host' => 'localhost',       
-    'db_user' => 'clubgo_bot',  
-    'db_pass' => 'clubgo_bot',  
-    'db_name' => 'clubgo_bot',
+    'db_user' => 'onorc_89club',  
+    'db_pass' => 'onorc_89club',  
+    'db_name' => 'onorc_89club',
     'api_url' => 'https://www.lg-pay.com/api/order/create',
     'secret_key' => 'ANUZyFL5Yig2d332',
     'app_id' => 'YD3528',

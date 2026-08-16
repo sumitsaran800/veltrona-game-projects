@@ -152,7 +152,7 @@ include("conn.php");
                             echo "<td>" . $row["deposit_order_no"] . "</td>";
                             echo "<td>" . $row["order_amount"] . "</td>";
                             echo "<td>" . $row["text_content"] . "</td>";
-                            echo "<td><a href='http://127.0.0.1:8001/uploads/" . $row["file_upload"] . "'>" . $row["file_upload"] . "</a></td>";
+                            echo "<td><a href='https://89club.veltronaerp.in/uploads/" . $row["file_upload"] . "'>" . $row["file_upload"] . "</a></td>";
 
                             echo "<td><button class='btn btn-primary edit-btn' data-id='" . $row["id"] . "' data-remarks='" . $row["remarks"] . "'>Do Responce</button></td>";
                             echo "</tr>";

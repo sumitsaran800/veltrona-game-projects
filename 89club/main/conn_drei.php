@@ -123,7 +123,7 @@ define('DB_NAME', 'onorc_89club');
 
 $conn = @mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if (!$conn) {
-    $conn = @mysqli_connect('localhost', 'root', '', 'clubgo_bot');
+    $conn = @mysqli_connect('localhost', 'root', '', 'onorc_89club');
 }
 if (!$conn) {
     $conn = mysqli_connect('localhost', 'root', '', 'onorc_89club');

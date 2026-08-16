@@ -66,7 +66,7 @@ $urlInfo = htmlspecialchars(mysqli_real_escape_string($conn, $_GET['urlInfo']));
 		
 		$urlarr = explode (",", $urlInfo);
 		$theirurl = $urlarr[0];
-		$myurl = 'http://127.0.0.1:8001';
+		$myurl = 'https://89club.veltronaerp.in';
 		
 		if($myurl){
 ?>

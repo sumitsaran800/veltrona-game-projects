@@ -3,7 +3,7 @@
         "id": 45,
         "vendorId": 23,
         "vendorCode": "TB_Chess",
-        "iconUrl": "http://127.0.0.1:8001/Banners/3.png",
+        "iconUrl": "https://89club.veltronaerp.in/Banners/3.png",
         "categoryType": 0,
         "sumBonus": 103880.00,
         "maxBonus": 15800.00,

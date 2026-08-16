@@ -1,6 +1,6 @@
 <script>
 	if (!localStorage.getItem('userInfo')) {
-		window.location.href = 'http://127.0.0.1:8001/#/login';
+		window.location.href = 'https://89club.veltronaerp.in/#/login';
 	}
 	else{
 		let alldet = localStorage.getItem('userInfo');
@@ -18,7 +18,7 @@
 		.then(response => response.json())
 		.then(data => {
 			if(data.res != '1'){
-				window.location.href = 'http://127.0.0.1:8001/';
+				window.location.href = 'https://89club.veltronaerp.in/';
 			}
 			else{
 				let date = new Date();
@@ -28,7 +28,7 @@
 			}
 		})
 		.catch(error => {
-			window.location.href = 'http://127.0.0.1:8001/';
+			window.location.href = 'https://89club.veltronaerp.in/';
 		});
 	}
 </script>

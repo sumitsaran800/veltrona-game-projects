@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    header('Location: http://127.0.0.1:8001/#/wallet/RechargeHistory');
+    header('Location: https://89club.veltronaerp.in/#/wallet/RechargeHistory');
     exit;
 }
 

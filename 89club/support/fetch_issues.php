@@ -117,7 +117,7 @@ if (!defined("SECURITY_PASS")) { die(); }
 header("Content-Type: application/json");
 
 // Database connection
-$conn = new mysqli("localhost", "clubgo_bot", "clubgo_bot", "clubgo_bot"); 
+$conn = new mysqli("localhost", "onorc_89club", "onorc_89club", "onorc_89club"); 
 
 if ($conn->connect_error) {
     die(json_encode(["error" => "Connection failed: " . $conn->connect_error]));

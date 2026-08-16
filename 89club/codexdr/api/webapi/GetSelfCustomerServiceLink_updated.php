@@ -1,4 +1,4 @@
 <?php
-header("Location: http://127.0.0.1:8001/support");
+header("Location: https://89club.veltronaerp.in/support");
 exit();
 ?>

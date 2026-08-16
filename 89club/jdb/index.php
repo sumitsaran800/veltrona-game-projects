@@ -115,9 +115,9 @@ else {
 
 if (!defined("SECURITY_PASS")) { die(); }
 $host = 'localhost';
-$dbname = 'clubgo_bot';
-$user = 'clubgo_bot';
-$pass = 'clubgo_bot';
+$dbname = 'onorc_89club';
+$user = 'onorc_89club';
+$pass = 'onorc_89club';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);

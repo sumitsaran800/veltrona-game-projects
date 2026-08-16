@@ -27,7 +27,7 @@
 			$shonustr = '{"language":'.$language.',"random":"'.$random.'"}';
 			$shonusign = strtoupper(md5($shonustr));
 			if($shonusign == $signature){				
-				$data['androidUrl'] = 'http://127.0.0.1:8001/89club.apk';
+				$data['androidUrl'] = 'https://89club.veltronaerp.in/89club.apk';
 				$data['iosUrl'] = '';
 				$data['isAppForceUpdate'] = 0;	
 				$data['latestAndroidShellVersion'] = 0;

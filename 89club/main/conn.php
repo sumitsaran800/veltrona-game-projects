@@ -103,7 +103,7 @@ if (!defined("SECURITY_PASS")) { die(); }
 
 	$conn = @mysqli_connect('localhost', 'onorc_89club', 'onorc_89club', 'onorc_89club');
 	if (!$conn) {
-		$conn = mysqli_connect('localhost', 'root', '', 'clubgo_bot');
+		$conn = mysqli_connect('localhost', 'root', '', 'onorc_89club');
 	}
 	if ($conn == false) {
 		die('Error: Cannot connect to database');
