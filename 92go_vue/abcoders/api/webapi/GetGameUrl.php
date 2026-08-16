@@ -71,243 +71,83 @@
                             $balanceRow = $balanceResult->fetch_assoc();
                             $userBalance = $balanceRow['motta']; // 'motta' is the balance column
 
-                            // Generate required variables for the API
-                            $timestamp = round(microtime(true) * 1000); // Milliseconds timestamp
-                            $agencyUid = "62bab62c3e4233e190ade02b7a41112e";
-                            $aesKey = "2be93fdc095b37a65c37ac0e98e84619";
-                            $serverUrl = "https://jsgame.live/game/v2";
-                            $playerPrefix = "h82c22";
+                            // Generate required variables for HUIDU v1 API
+                            $agencyUid = "515d62d4b6910681bd037f3be9f4d356";
+                            $aesKey = "ddeb387628093a52503618f257cb071f";
+                            $serverUrl = "https://play.huiduapi.org/game/v1";
+                            $callbackUrl = "https://huidu.forum/api/huidu/callback";
+                            $memberPrefix = "h0b243mm";
+                            $forwardedIp = "145.79.12.201";
 
-                            $memberAccount = "{$playerPrefix}{$userName}new24gamebdg";
-                            $transferId = $memberAccount . '_' . bin2hex(random_bytes(3)); // Unique transfer ID
+                            $memberAccount = $memberPrefix . $userName;
+                            $timestampStr = (string)(int)(microtime(true) * 1000);
 
-                            if (empty($serverUrl)) {
-                                $res['code'] = 0;
-                                $res['msg'] = 'Game launched successfully';
-                                $res['data'] = [
-                                    'url' => $origin . '/#/home',
-                                    'gameUrl' => $origin . '/#/home',
-                                    'returnUrl' => $origin . '/',
-                                    'isOpenWindow' => true
-                                ];
-                                http_response_code(200);
-                                echo json_encode($res);
-                                exit;
-                            }
-
-                            $initPayload = [
-                                'agency_uid' => $agencyUid,
+                            // Inner payload for HUIDU v1
+                            $innerPayload = [
+                                'agency_uid'     => $agencyUid,
+                                'callback_url'   => $callbackUrl,
                                 'member_account' => $memberAccount,
-                                'timestamp' => $timestamp,
-                                'credit_amount' => "0", // Set balance to 0
-                                'currency_code' => "INR",
-                                'language' => "en",
-                                'platform' => "2",
-                                'home_url' => $origin, // Using the origin header as referer
-                                'transfer_id' => $transferId,
+                                'credit_amount'  => (string) $userBalance,
+                                'game_uid'       => (string) $gameCode,
+                                'currency_code'  => 'INR',
+                                'language'       => 'en',
+                                'timestamp'      => $timestampStr,
                             ];
 
-                            // Encrypt the payload using AES256 (ECB mode)
-                            $initEncryptedPayload = encryptAES256ECB(json_encode($initPayload), $aesKey);
+                            // Encrypt using AES-256-ECB
+                            $encryptedPayload = base64_encode(openssl_encrypt(
+                                json_encode($innerPayload, JSON_UNESCAPED_SLASHES),
+                                'AES-256-ECB',
+                                $aesKey,
+                                OPENSSL_RAW_DATA
+                            ));
 
-                            // Prepare the request payload for the initial API request
-                            $initRequestPayload = [
+                            // Request body
+                            $requestPayload = [
                                 'agency_uid' => $agencyUid,
-                                'timestamp' => $timestamp,
-                                'payload' => $initEncryptedPayload,
+                                'timestamp'  => $timestampStr,
+                                'payload'    => $encryptedPayload,
                             ];
 
-                            // Step 3: Send the initial request to the server
+                            // Call HUIDU v1 API
                             $ch = curl_init($serverUrl);
-                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                            curl_setopt($ch, CURLOPT_POST, true);
-                            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($initRequestPayload));
-                            curl_setopt($ch, CURLOPT_HTTPHEADER, [
-                                'Content-Type: application/json',
+                            curl_setopt_array($ch, [
+                                CURLOPT_RETURNTRANSFER => true,
+                                CURLOPT_POST => true,
+                                CURLOPT_POSTFIELDS => json_encode($requestPayload),
+                                CURLOPT_HTTPHEADER => [
+                                    'Content-Type: application/json',
+                                    "X-Forwarded-For: $forwardedIp"
+                                ],
+                                CURLOPT_TIMEOUT => 15,
+                                CURLOPT_SSL_VERIFYPEER => false,
                             ]);
 
-                            $initResponse = curl_exec($ch);
+                            $response = curl_exec($ch);
                             $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-                            $curlError = curl_error($ch);
                             curl_close($ch);
 
-                            // Handle the initial response
-                            if ($httpCode === 200 && $initResponse !== false) {
-                                $initResponseData = json_decode($initResponse, true);
+                            if ($httpCode === 200 && $response !== false) {
+                                $responseData = json_decode($response, true);
+                                $gameUrl = '';
 
-                                // Extract after_amount to determine how much to deduct
-                                if ($initResponseData['code'] === 0) {
-                                    $initAdd = $initResponseData['payload']['after_amount']; // Amount to deduct
+                                if (isset($responseData['payload']['game_launch_url']) && !empty($responseData['payload']['game_launch_url'])) {
+                                    $gameUrl = $responseData['payload']['game_launch_url'];
+                                } elseif (isset($responseData['data']['game_launch_url']) && !empty($responseData['data']['game_launch_url'])) {
+                                    $gameUrl = $responseData['data']['game_launch_url'];
+                                } elseif (isset($responseData['game_launch_url']) && !empty($responseData['game_launch_url'])) {
+                                    $gameUrl = $responseData['game_launch_url'];
+                                }
 
-                                    // Step 4: Prepare the deduction payload
-                                    $deductPayload = [
-                                        'agency_uid' => $agencyUid,
-                                        'member_account' => $memberAccount,
-                                        'credit_amount' => "-" . $initAdd, // Deduct the current balance
-                                        'currency_code' => "INR",
-                                        'language' => "en",
-                                        'platform' => "2",
-                                        'home_url' => $origin, // Using the origin header as referer
-                                        'transfer_id' => $memberAccount . '_' . bin2hex(random_bytes(3)), // New transfer ID
-                                        'timestamp' => round(microtime(true) * 1000), // New timestamp
+                                if (!empty($gameUrl)) {
+                                    $res['code'] = 0;
+                                    $res['msg'] = 'Game launched successfully';
+                                    $res['data'] = [
+                                        'url' => $gameUrl,
+                                        'gameUrl' => $gameUrl,
+                                        'returnUrl' => $origin . '/',
+                                        'isOpenWindow' => true
                                     ];
-
-                                    // Encrypt the deduction payload using AES-256-ECB
-                                    $deductEncryptedPayload = encryptAES256ECB(json_encode($deductPayload), $aesKey);
-
-                                    // Prepare the request payload for the deduction API request
-                                    $deductRequestPayload = [
-                                        'agency_uid' => $agencyUid,
-                                        'timestamp' => $deductPayload['timestamp'],
-                                        'payload' => $deductEncryptedPayload,
-                                    ];
-
-                                    // Step 5: Send the deduction request to the server
-                                    $ch = curl_init($serverUrl);
-                                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                    curl_setopt($ch, CURLOPT_POST, true);
-                                    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($deductRequestPayload));
-                                    curl_setopt($ch, CURLOPT_HTTPHEADER, [
-                                        'Content-Type: application/json',
-                                    ]);
-
-                                    $deductResponse = curl_exec($ch);
-                                    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-                                    $curlError = curl_error($ch);
-                                    curl_close($ch);
-
-                                    // Handle the deduction response
-                                    if ($httpCode === 200 && $deductResponse !== false) {
-                                        $deductResponseData = json_decode($deductResponse, true);
-                                        if ($deductResponseData['code'] === 0) {
-                                            // Deduction successful, launch the game
-
-                                            // Step 6: Prepare the game launch payload
-                                            $creditAmt = $userBalance + $initAdd; // Calculate new balance
-                                            $gamePayload = [
-                                                'agency_uid' => $agencyUid,
-                                                'member_account' => $memberAccount,
-                                                'game_uid' => $gameCode, // Game UID should be passed from the request
-                                                'timestamp' => round(microtime(true) * 1000),
-                                                'credit_amount' => (string) $creditAmt, // Convert to string for consistency
-                                                'currency_code' => "INR",
-                                                'language' => "en",
-                                                'platform' => "2",
-                                                'home_url' => $origin,
-                                                'transfer_id' => $memberAccount . '_' . bin2hex(random_bytes(3)),
-                                            ];
-
-                                            // Encrypt the game payload using AES-256-ECB
-                                            $gameEncryptedPayload = encryptAES256ECB(json_encode($gamePayload), $aesKey);
-
-                                            // Prepare the game request payload
-                                            $gameRequestPayload = [
-                                                'agency_uid' => $agencyUid,
-                                                'timestamp' => round(microtime(true) * 1000),
-                                                'payload' => $gameEncryptedPayload,
-                                            ];
-
-                                            // Step 7: Send the game launch request
-                                            $ch = curl_init($serverUrl);
-                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                            curl_setopt($ch, CURLOPT_POST, true);
-                                            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($gameRequestPayload));
-                                            curl_setopt($ch, CURLOPT_HTTPHEADER, [
-                                                'Content-Type: application/json',
-                                            ]);
-
-                                            $gameResponse = curl_exec($ch);
-                                            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-                                            $curlError = curl_error($ch);
-                                            curl_close($ch);
-
-                                            // Handle the game launch response
-                                            if ($httpCode === 200 && $gameResponse !== false) {
-                                                $gameResponseData = json_decode($gameResponse, true);
-
-                                                if ($gameResponseData['code'] === 0) {
-                                                    // Game launched successfully, return the game URL
-                                                    $gameLaunchUrl = $gameResponseData['payload']['game_launch_url'];
-
-                                                    // Return the game launch URL to the user
-                                                    $res['code'] = 0;
-                                                    $res['msg'] = 'Game launched successfully';
-                                                    $res['data'] = [
-                                                        'url' => $gameLaunchUrl,
-                                                    ];
-                                                    
-// Check if the user's balance is already 0
-$checkBalanceQuery = "SELECT motta FROM shonu_kaichila WHERE balakedara = ?";
-$stmt = $conn->prepare($checkBalanceQuery);
-$stmt->bind_param("s", $userName);
-$stmt->execute();
-$result = $stmt->get_result();
-
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    if ($row['motta'] != 0) {
-        // Update the user's balance to 0 only if it's not already 0
-        $updateBalanceQuery = "UPDATE shonu_kaichila SET motta = 0 WHERE balakedara = ?";
-        $stmt = $conn->prepare($updateBalanceQuery);
-        $stmt->bind_param("s", $userName);
-        $stmt->execute();
-        echo "";
-    } else {
-        echo "";
-    }
-} else {
-    echo "";
-}
-                                    http_response_code(200);
-                                    echo json_encode($res);
-                                                } else {
-                                                    $res['code'] = 0;
-                                                    $res['msg'] = 'Game launched successfully';
-                                                    $res['data'] = [
-                                                        'url' => $origin . '/#/home',
-                                                        'gameUrl' => $origin . '/#/home',
-                                                        'returnUrl' => $origin . '/',
-                                                        'isOpenWindow' => true
-                                                    ];
-                                                    http_response_code(200);
-                                                    echo json_encode($res);
-                                                }
-                                            } else {
-                                                $res['code'] = 0;
-                                                $res['msg'] = 'Game launched successfully';
-                                                $res['data'] = [
-                                                    'url' => $origin . '/#/home',
-                                                    'gameUrl' => $origin . '/#/home',
-                                                    'returnUrl' => $origin . '/',
-                                                    'isOpenWindow' => true
-                                                ];
-                                                http_response_code(200);
-                                                echo json_encode($res);
-                                            }
-                                        } else {
-                                            $res['code'] = 0;
-                                            $res['msg'] = 'Game launched successfully';
-                                            $res['data'] = [
-                                                'url' => $origin . '/#/home',
-                                                'gameUrl' => $origin . '/#/home',
-                                                'returnUrl' => $origin . '/',
-                                                'isOpenWindow' => true
-                                            ];
-                                            http_response_code(200);
-                                            echo json_encode($res);
-                                        }
-                                    } else {
-                                        $res['code'] = 0;
-                                        $res['msg'] = 'Game launched successfully';
-                                        $res['data'] = [
-                                            'url' => $origin . '/#/home',
-                                            'gameUrl' => $origin . '/#/home',
-                                            'returnUrl' => $origin . '/',
-                                            'isOpenWindow' => true
-                                        ];
-                                        http_response_code(200);
-                                        echo json_encode($res);
-                                    }
                                 } else {
                                     $res['code'] = 0;
                                     $res['msg'] = 'Game launched successfully';
@@ -317,8 +157,6 @@ if ($result->num_rows > 0) {
                                         'returnUrl' => $origin . '/',
                                         'isOpenWindow' => true
                                     ];
-                                    http_response_code(200);
-                                    echo json_encode($res);
                                 }
                             } else {
                                 $res['code'] = 0;
@@ -329,9 +167,10 @@ if ($result->num_rows > 0) {
                                     'returnUrl' => $origin . '/',
                                     'isOpenWindow' => true
                                 ];
-                                http_response_code(200);
-                                echo json_encode($res);
                             }
+                            http_response_code(200);
+                            echo json_encode($res);
+                            exit;
                         } else {
                             $res['code'] = 0;
                             $res['msg'] = 'Game launched successfully';
@@ -343,6 +182,7 @@ if ($result->num_rows > 0) {
                             ];
                             http_response_code(200);
                             echo json_encode($res);
+                            exit;
                         }
                     } else {
                         $res['code'] = 0;
@@ -355,6 +195,7 @@ if ($result->num_rows > 0) {
                         ];
                         http_response_code(200);
                         echo json_encode($res);
+                        exit;
                     }
                 } else {
                     $res['code'] = 4;
