@@ -12,7 +12,7 @@ $jsonData = '{
                 {
                 "gameID": "chicken-road",
                 "gameNameEn": "Money Coming",
-                "imgUrl": "https://wuttsghdijsbbsh.yrehdjsfiafkjgkjgfsasc.yachts/images/chicken-road.png",
+                "imgUrl": "https://89club.veltronaerp.in/images/chicken-road.png",
                 "vendorId": 18,
                 "vendorCode": "chicken",
                 "imgUrl2": null,
@@ -20,7 +20,7 @@ $jsonData = '{
             }, {
                 "gameID": "chicken-road-two",
                 "gameNameEn": "Money Coming",
-                "imgUrl": "https://wuttsghdijsbbsh.yrehdjsfiafkjgkjgfsasc.yachts/images/chicken-road-two.png",
+                "imgUrl": "https://89club.veltronaerp.in/images/chicken-road-two.png",
                 "vendorId": 18,
                 "vendorCode": "chicken",
                 "imgUrl2": null,
@@ -119,7 +119,7 @@ $jsonData = '{
         "vendorCode": "INOUT",
         "gameID": "squid-game",
         "gameNameEn": "squidgame",
-        "imgUrl": "https://wuttsghdijsbbsh.yrehdjsfiafkjgkjgfsasc.yachts/images/squid-game.png",
+        "imgUrl": "https://89club.veltronaerp.in/images/squid-game.png",
         "imgUrl2": null,
         "customGameType": 0
     },
@@ -128,7 +128,7 @@ $jsonData = '{
         "vendorCode": "INOUT",
         "gameID": "ballonix",
         "gameNameEn": "ballonix",
-        "imgUrl": "https://wuttsghdijsbbsh.yrehdjsfiafkjgkjgfsasc.yachts/images/ballonix.png",
+        "imgUrl": "https://89club.veltronaerp.in/images/ballonix.png",
         "imgUrl2": null,
         "customGameType": 0
     },
@@ -1420,7 +1420,7 @@ $jsonData = '{
                 "vendorId": 5,
                 "vendorCode": "PG",
                 "state": 1,
-                "vendorImg": "https://wuttsghdijsbbsh.yrehdjsfiafkjgkjgfsasc.yachts/images/ballonix.png"
+                "vendorImg": "https://89club.veltronaerp.in/images/ballonix.png"
             },
             {
                 "slotsTypeID": 5,

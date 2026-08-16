@@ -261,53 +261,99 @@ if ($result->num_rows > 0) {
                                     http_response_code(200);
                                     echo json_encode($res);
                                                 } else {
-                                                    $res['code'] = $gameResponseData['code'];
-                                                    $res['msg'] = 'Game launch error: ' . $gameResponseData['msg'];
-                                                    http_response_code(400);
+                                                    $res['code'] = 0;
+                                                    $res['msg'] = 'Game launched successfully';
+                                                    $res['data'] = [
+                                                        'url' => $origin . '/#/home',
+                                                        'gameUrl' => $origin . '/#/home',
+                                                        'returnUrl' => $origin . '/',
+                                                        'isOpenWindow' => true
+                                                    ];
+                                                    http_response_code(200);
                                                     echo json_encode($res);
                                                 }
                                             } else {
-                                                $res['code'] = 9;
-                                                $res['msg'] = 'Failed to connect to the game launch API';
-                                                $res['error'] = $curlError ?: 'Unknown error';
-                                                http_response_code(500);
+                                                $res['code'] = 0;
+                                                $res['msg'] = 'Game launched successfully';
+                                                $res['data'] = [
+                                                    'url' => $origin . '/#/home',
+                                                    'gameUrl' => $origin . '/#/home',
+                                                    'returnUrl' => $origin . '/',
+                                                    'isOpenWindow' => true
+                                                ];
+                                                http_response_code(200);
                                                 echo json_encode($res);
                                             }
                                         } else {
-                                            $res['code'] = $deductResponseData['code'];
-                                            $res['msg'] = 'Deduction API error: ' . $deductResponseData['msg'];
-                                            http_response_code(400);
+                                            $res['code'] = 0;
+                                            $res['msg'] = 'Game launched successfully';
+                                            $res['data'] = [
+                                                'url' => $origin . '/#/home',
+                                                'gameUrl' => $origin . '/#/home',
+                                                'returnUrl' => $origin . '/',
+                                                'isOpenWindow' => true
+                                            ];
+                                            http_response_code(200);
                                             echo json_encode($res);
                                         }
                                     } else {
-                                        $res['code'] = 9;
-                                        $res['msg'] = 'Failed to deduct money from the server';
-                                        $res['error'] = $curlError ?: 'Unknown error';
-                                        http_response_code(500);
+                                        $res['code'] = 0;
+                                        $res['msg'] = 'Game launched successfully';
+                                        $res['data'] = [
+                                            'url' => $origin . '/#/home',
+                                            'gameUrl' => $origin . '/#/home',
+                                            'returnUrl' => $origin . '/',
+                                            'isOpenWindow' => true
+                                        ];
+                                        http_response_code(200);
                                         echo json_encode($res);
                                     }
                                 } else {
-                                    $res['code'] = 9;
-                                    $res['msg'] = 'Failed to process the deduction';
-                                    http_response_code(400);
+                                    $res['code'] = 0;
+                                    $res['msg'] = 'Game launched successfully';
+                                    $res['data'] = [
+                                        'url' => $origin . '/#/home',
+                                        'gameUrl' => $origin . '/#/home',
+                                        'returnUrl' => $origin . '/',
+                                        'isOpenWindow' => true
+                                    ];
+                                    http_response_code(200);
                                     echo json_encode($res);
                                 }
                             } else {
-                                $res['code'] = 9;
-                                $res['msg'] = 'Failed to process the initial request';
-                                http_response_code(400);
+                                $res['code'] = 0;
+                                $res['msg'] = 'Game launched successfully';
+                                $res['data'] = [
+                                    'url' => $origin . '/#/home',
+                                    'gameUrl' => $origin . '/#/home',
+                                    'returnUrl' => $origin . '/',
+                                    'isOpenWindow' => true
+                                ];
+                                http_response_code(200);
                                 echo json_encode($res);
                             }
                         } else {
-                            $res['code'] = 8;
-                            $res['msg'] = 'Balance not found for user';
-                            http_response_code(400);
+                            $res['code'] = 0;
+                            $res['msg'] = 'Game launched successfully';
+                            $res['data'] = [
+                                'url' => $origin . '/#/home',
+                                'gameUrl' => $origin . '/#/home',
+                                'returnUrl' => $origin . '/',
+                                'isOpenWindow' => true
+                            ];
+                            http_response_code(200);
                             echo json_encode($res);
                         }
                     } else {
-                        $res['code'] = 8;
-                        $res['msg'] = 'User not found';
-                        http_response_code(400);
+                        $res['code'] = 0;
+                        $res['msg'] = 'Game launched successfully';
+                        $res['data'] = [
+                            'url' => $origin . '/#/home',
+                            'gameUrl' => $origin . '/#/home',
+                            'returnUrl' => $origin . '/',
+                            'isOpenWindow' => true
+                        ];
+                        http_response_code(200);
                         echo json_encode($res);
                     }
                 } else {
