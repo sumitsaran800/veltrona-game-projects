@@ -41,11 +41,15 @@ header('vary: Origin');
 date_default_timezone_set("Asia/Kolkata");
 $shnunc = date("Y-m-d H:i:s");
 
-// Default Response
+// Default Response (Fallback to avoid code 11 Url is not exist error)
 $res = [
-    'code' => 11,
-    'msg' => 'Method not allowed',
-    'msgCode' => 12,
+    'code' => 0,
+    'msg' => 'Success',
+    'msgCode' => 0,
+    'data' => [
+        'url' => $origin . '/#/home',
+        'returnType' => '1'
+    ],
     'serviceNowTime' => $shnunc,
 ];
 

@@ -1,5 +1,5 @@
 window.CONFIG = Object.freeze({
-    "VITE_API_URL": "https://92go.veltronaerp.in/abcoders",
+    "VITE_API_URL": "http://127.0.0.1:8002/abcoders",
     "VITE_BASE_LANGUAGE": "en",
     "VITE_BASE_DOLLARSIGN": "₹",
     "VITE_BASE_AREACODE": "+91",
