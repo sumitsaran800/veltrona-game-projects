@@ -117,11 +117,20 @@ if (!defined("SECURITY_PASS")) { die(); }
 	date_default_timezone_set('Asia/Kolkata');
 
 	define('DB_SERVER', 'localhost');
-	define('DB_USERNAME', 'onorc_89club');
-	define('DB_PASSWORD', 'onorc_89club');
-	define('DB_NAME', 'onorc_89club');
+define('DB_USERNAME', 'onorc_89club');
+define('DB_PASSWORD', 'onorc_89club');
+define('DB_NAME', 'onorc_89club');
 
-	$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = @mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+if (!$conn) {
+    $conn = @mysqli_connect('localhost', 'root', '', 'clubgo_bot');
+}
+if (!$conn) {
+    $conn = mysqli_connect('localhost', 'root', '', 'onorc_89club');
+}
+if ($conn == false) {
+    die('Database connection error');
+}
 	if($conn == false){
 		dir('Error: Cannot connect');
 		echo "Fail";
