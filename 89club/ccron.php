@@ -161,7 +161,7 @@ $tasks = [
     ],
     [
         'url' => 'https://89club.veltronaerp.in/niyamitakelasa30sec.php',
-        'interval' => '* * * * *', // Every 30 seconds / minute
+        'interval' => '* * * * *', // Every 30 seconds
     ],
 ];
 
