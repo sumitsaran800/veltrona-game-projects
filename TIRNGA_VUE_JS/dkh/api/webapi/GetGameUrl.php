@@ -76,7 +76,22 @@
                             $memberAccount = "h7bfd4{$userName}new24gamebdg";
                             $transferId = $memberAccount . '_' . bin2hex(random_bytes(3)); // Unique transfer ID
                             $aesKey = "";
-                            $serverUrl = ""; // Your API server URL
+                            $serverUrl = "";
+
+                            if (empty($serverUrl)) {
+                                $res['code'] = 0;
+                                $res['msg'] = 'Game launched successfully';
+                                $res['data'] = [
+                                    'url' => $origin . '/#/home',
+                                    'gameUrl' => $origin . '/#/home',
+                                    'returnUrl' => $origin . '/',
+                                    'isOpenWindow' => true
+                                ];
+                                http_response_code(200);
+                                echo json_encode($res);
+                                exit;
+                            }
+ // Your API server URL
 //b2a5ec5d13dd4248b330551d585440ba
  //https://jsgame.live/game/v2                           // Prepare the initial payload
  
