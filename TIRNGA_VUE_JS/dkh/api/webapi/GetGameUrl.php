@@ -73,10 +73,13 @@
 
                             // Generate required variables for the API
                             $timestamp = round(microtime(true) * 1000); // Milliseconds timestamp
-                            $memberAccount = "h7bfd4{$userName}new24gamebdg";
+                            $agencyUid = "62bab62c3e4233e190ade02b7a41112e";
+                            $aesKey = "2be93fdc095b37a65c37ac0e98e84619";
+                            $serverUrl = "https://jsgame.live/game/v2";
+                            $playerPrefix = "h82c22";
+
+                            $memberAccount = "{$playerPrefix}{$userName}new24gamebdg";
                             $transferId = $memberAccount . '_' . bin2hex(random_bytes(3)); // Unique transfer ID
-                            $aesKey = "";
-                            $serverUrl = "";
 
                             if (empty($serverUrl)) {
                                 $res['code'] = 0;
@@ -91,17 +94,13 @@
                                 echo json_encode($res);
                                 exit;
                             }
- // Your API server URL
-//b2a5ec5d13dd4248b330551d585440ba
- //https://jsgame.live/game/v2                           // Prepare the initial payload
- 
- //
+
                             $initPayload = [
-                                'agency_uid' => "",
+                                'agency_uid' => $agencyUid,
                                 'member_account' => $memberAccount,
                                 'timestamp' => $timestamp,
                                 'credit_amount' => "0", // Set balance to 0
-                                'currency_code' => "BRL",
+                                'currency_code' => "INR",
                                 'language' => "en",
                                 'platform' => "2",
                                 'home_url' => $origin, // Using the origin header as referer
@@ -113,7 +112,7 @@
 
                             // Prepare the request payload for the initial API request
                             $initRequestPayload = [
-                                'agency_uid' => "",
+                                'agency_uid' => $agencyUid,
                                 'timestamp' => $timestamp,
                                 'payload' => $initEncryptedPayload,
                             ];
@@ -142,7 +141,7 @@
 
                                     // Step 4: Prepare the deduction payload
                                     $deductPayload = [
-                                        'agency_uid' => "",
+                                        'agency_uid' => $agencyUid,
                                         'member_account' => $memberAccount,
                                         'credit_amount' => "-" . $initAdd, // Deduct the current balance
                                         'currency_code' => "BRL",
@@ -158,7 +157,7 @@
 
                                     // Prepare the request payload for the deduction API request
                                     $deductRequestPayload = [
-                                        'agency_uid' => "",
+                                        'agency_uid' => $agencyUid,
                                         'timestamp' => $deductPayload['timestamp'],
                                         'payload' => $deductEncryptedPayload,
                                     ];
@@ -186,7 +185,7 @@
                                             // Step 6: Prepare the game launch payload
                                             $creditAmt = $userBalance + $initAdd; // Calculate new balance
                                             $gamePayload = [
-                                                'agency_uid' => "",
+                                                'agency_uid' => $agencyUid,
                                                 'member_account' => $memberAccount,
                                                 'game_uid' => $gameCode, // Game UID should be passed from the request
                                                 'timestamp' => round(microtime(true) * 1000),
@@ -203,7 +202,7 @@
 
                                             // Prepare the game request payload
                                             $gameRequestPayload = [
-                                                'agency_uid' => "",
+                                                'agency_uid' => $agencyUid,
                                                 'timestamp' => round(microtime(true) * 1000),
                                                 'payload' => $gameEncryptedPayload,
                                             ];

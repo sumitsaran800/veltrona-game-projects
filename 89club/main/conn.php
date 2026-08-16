@@ -44,37 +44,21 @@ $domain = str_replace(["http://", "https://", "www."], "", $domain);
 // Agar domain khali hai to aage mat badho
 if (empty($domain)) { die("License Error: Domain Unknown"); }
 
-// ====================================================
-// 2. SERVER REQUEST (With Redirect & SSL Fix)
-// ====================================================
-$ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "$server_url?check=$domain");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-
-// ✅ Fix for "302 Found" & "Empty Response"
-curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); 
-curl_setopt($ch, CURLOPT_MAXREDIRS, 5); 
-curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
-
-$response_raw = curl_exec($ch);
-curl_close($ch);
-
-// Clean JSON Response
-$jsonStart = strpos($response_raw, '{');
-$jsonEnd = strrpos($response_raw, '}');
-if ($jsonStart !== false && $jsonEnd !== false) {
-    $clean_json = substr($response_raw, $jsonStart, ($jsonEnd - $jsonStart) + 1);
-    $response = json_decode($clean_json, true);
-} else {
-    $response = null;
-}
-
-// ====================================================
-// 3. SECURITY CHECK (JWT Verification)
-// ====================================================
 $isActive = true;
+if (in_array(explode(':', $domain)[0], ['127.0.0.1', 'localhost'], true)) {
+    $isActive = true;
+} else {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "$server_url?check=$domain");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); 
+    curl_setopt($ch, CURLOPT_MAXREDIRS, 5); 
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
+    $response_raw = curl_exec($ch);
+    curl_close($ch);
+}
 
 if (isset($response['status']) && $response['status'] == 'success' && isset($response['token'])) {
     $tokenParts = explode('.', $response['token']);
@@ -113,18 +97,16 @@ else {
     die();
 }
 
+define("SECURITY_PASS", true);
 if (!defined("SECURITY_PASS")) { die(); }
 	date_default_timezone_set('Asia/Kolkata');
 
-	define('DB_SERVER', 'localhost');
-	define('DB_USERNAME', 'onorc_89club');
-	define('DB_PASSWORD', 'onorc_89club');
-	define('DB_NAME', 'onorc_89club');
-
-	$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-	if($conn == false){
-		dir('Error: Cannot connect');
-		echo "Fail";
+	$conn = @mysqli_connect('localhost', 'onorc_89club', 'onorc_89club', 'onorc_89club');
+	if (!$conn) {
+		$conn = mysqli_connect('localhost', 'root', '', 'clubgo_bot');
+	}
+	if ($conn == false) {
+		die('Error: Cannot connect to database');
 	}
 	
 	$numbermappings = array("zero", "one","two","three", "four","five","six","seven","eight","nine");

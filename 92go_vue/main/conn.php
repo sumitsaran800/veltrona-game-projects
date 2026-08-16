@@ -1,15 +1,12 @@
 <?php
 	date_default_timezone_set('Asia/Kolkata');
 
-	define('DB_SERVER', 'localhost');
-	define('DB_USERNAME', 'onorc_92go');
-	define('DB_PASSWORD', 'onorc_92go');
-	define('DB_NAME', 'onorc_92go');
-
-	$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-	if($conn == false){
-		dir('Error: Cannot connect');
-		echo "Fail";
+	$conn = @mysqli_connect('localhost', 'onorc_92go', 'onorc_92go', 'onorc_92go');
+	if (!$conn) {
+		$conn = mysqli_connect('localhost', 'root', '', 'clubgo_bot');
+	}
+	if ($conn == false) {
+		die('Error: Cannot connect to database');
 	}
 	
 	$numbermappings = array("zero", "one","two","three", "four","five","six","seven","eight","nine");

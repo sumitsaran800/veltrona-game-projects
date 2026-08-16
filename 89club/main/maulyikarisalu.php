@@ -1,4 +1,5 @@
 <?php 
+	ob_start();
 	session_start();
 	include("conn.php");
 	
@@ -12,12 +13,13 @@
 	if($sankhye >= 1){
 		$_SESSION['unohs'] = $salu['unohs'];
 		$_SESSION['nirvahaka_hesaru'] = $salu['nirvahaka_hesaru'];
-		
-		header("location:dashboard.php");
+		echo '<script>window.location="dashboard.php";</script>';
+		header("Location: dashboard.php", true, 302);
 		exit;
 	}
 	else{
-		header("location:index.php?err=ture");
+		echo '<script>alert("Invalid Username or Password!");window.location="index.php?err=true";</script>';
+		header("Location: index.php?err=true", true, 302);
 		exit;
 	}
 ?>
