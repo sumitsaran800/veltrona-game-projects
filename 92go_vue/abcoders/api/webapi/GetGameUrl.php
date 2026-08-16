@@ -144,7 +144,7 @@
                                         'agency_uid' => $agencyUid,
                                         'member_account' => $memberAccount,
                                         'credit_amount' => "-" . $initAdd, // Deduct the current balance
-                                        'currency_code' => "BRL",
+                                        'currency_code' => "INR",
                                         'language' => "en",
                                         'platform' => "2",
                                         'home_url' => $origin, // Using the origin header as referer
@@ -190,7 +190,7 @@
                                                 'game_uid' => $gameCode, // Game UID should be passed from the request
                                                 'timestamp' => round(microtime(true) * 1000),
                                                 'credit_amount' => (string) $creditAmt, // Convert to string for consistency
-                                                'currency_code' => "BRL",
+                                                'currency_code' => "INR",
                                                 'language' => "en",
                                                 'platform' => "2",
                                                 'home_url' => $origin,
